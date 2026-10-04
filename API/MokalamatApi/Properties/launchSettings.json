@@ -1,0 +1,40 @@
+{
+  "profiles": {
+    "MokalamatApi": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7098;http://localhost:5120"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "nativeDebugging": true
+    },
+    "Local IIS": {
+      "commandName": "IIS",
+      "workingDirectory": "D:\\SYSTEM_EXTEND\\USER01\\Desktop\\HW\\api\\MokalamatApi"
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": false,
+    "iis": {
+      "applicationUrl": "MokalamatApi",
+      "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://localhost:62115",
+      "sslPort": 44329
+    }
+  }
+}
